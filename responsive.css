@@ -1,0 +1,111 @@
+@media (max-width:1000px) {
+ .hero h1 {
+    font-size: 100px;
+    letter-spacing: 6px;
+ }
+ .hero h2 {
+    font-size: 48px;
+    letter-spacing: 4px;
+ }
+ .ken {
+    width: 320px;
+    padding-top: 16px;
+ }
+ .tentangsaya p{
+    width: 800px;
+ }
+ .contoh {
+    width:100%;
+ }
+ .list-gambar li {
+    padding: 0 48px;
+    padding-top: 24px;
+ }
+ .header-list {
+    float:right;
+ }
+}
+
+@media (max-width:670px) {
+.hero h1 {
+    font-size: 80px;
+    letter-spacing: 4px;
+ }
+
+ .hero h2 {
+    font-size: 48px;
+    letter-spacing: 2px;
+    padding-top: 8px;
+ }
+
+.header-list {
+    visibility: hidden;
+}
+.menu {
+    visibility: visible;
+    float: right;
+    display: inline-block;
+    position: absolute;
+    padding-top: 16px;
+}
+
+.header-logo {
+    width: 92%;
+}
+ .tentangsaya p {
+    width: 72%;
+    font-size: 22px;
+    line-height: 1.6;
+ }
+ 
+ .field {
+    width: 88%;
+ }
+
+ textarea {
+    width: 88%;
+ }
+
+ .button {
+    width:88%;
+ }
+
+ .list-gambar {
+    flex-wrap: wrap;
+ }
+
+ .list-gambar li{
+    flex:auto;
+    width: 100%;
+    flex-direction: column;
+    padding-bottom: 24px;
+ }
+ .list-gambar img{
+    width:400px;
+ }
+ .list-gambar p{
+    font-size: 24px;
+    padding-top:8px;
+
+ }
+
+ footer {
+    text-align: center;
+ }
+.footer-right, .footer-left {
+    float:none;
+    margin: 0 auto;
+
+}
+.footer-left {
+    padding-top:24px;
+}
+.footer-right {
+    padding-bottom:24px;
+}
+.footer-list {
+    padding: 0px;
+    font-size: 20px;
+    line-height: 48px;
+}
+}
