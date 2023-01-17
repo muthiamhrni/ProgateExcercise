@@ -1,0 +1,210 @@
+* {
+    font-family:Figtree;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #404146;
+    width: 100%;
+    height: 80px;
+    position:fixed;
+    z-index:1;
+}
+.container {
+    margin:0 60px;
+}
+
+header h1 {
+    letter-spacing: 8px;
+    color:white;
+    padding-right:48px;
+    position:relative;
+    font-weight:800;
+}
+
+.header-logo {
+    float:left;
+}
+
+.header-list p {
+    float:left;
+    color:white;
+    font-weight:lighter;
+    padding:16px;
+}
+
+.hero {
+    text-align: center;
+    background-color: white;
+    width:100%;
+    z-index: 0;
+}
+
+.hero h1 {
+    font-size: 140px;
+    color: #404146;
+    padding-top:184px;
+    letter-spacing: 10px;
+    font-weight:760;
+}
+
+.dot {
+    color:#ECD248;
+}
+
+.hero h2 {
+    font-size:64px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    position: relative;
+    top:-48px;
+    letter-spacing: 6px;
+    color: #404146;
+}
+
+.ken {
+    width:400px;
+    position: relative;
+    top:-72px;
+    padding-bottom: 96px;
+}
+
+.tentangsaya {
+    text-align: center;
+    background-color: #f6f6f6;
+    padding: 96px 0;
+    width:100%;
+    color:#404146
+}
+
+.tentangsaya p {
+    margin: 0 auto;
+    width: 1000px;
+    line-height: 1.5;
+    color: #4A4A4A;
+    font-size: 18px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.contoh {
+    text-align: center;
+    background-color: #fff;
+    padding: 96px 0;
+    width:100%;
+    color:#404146
+}
+
+.list-gambar {
+    display: flex;
+    width: 100%;
+    padding: 0px;
+}
+
+.list-gambar img {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.list-gambar li {
+    flex:auto;
+    width: 33%;
+    padding: 0 64px;
+    list-style: none;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.list-gambar p {
+    padding-top:16px;
+    font-size: 20px;
+}
+
+.hubungisaya {
+    text-align: center;
+    background-color: #F4F4F4;
+    padding: 96px 0;
+    width:100%;
+    color:#404146
+}
+
+.hubungisaya h1{
+    margin-bottom: 40px;
+}
+.field {
+    color:#848587;
+    height: 40px;
+    width: 800px;
+    border-radius: 8px;
+    padding: 24px 16px;
+    margin-bottom: 32px;
+    border-width: 0px;
+    font-size: 16px;
+}
+
+textarea {
+    color:#848587;
+    height: 40px;
+    width: 800px;
+    border-radius: 8px;
+    margin-bottom: 32px;
+    border-width: 0px;
+    padding: 16px 16px 72px 16px;
+    font-size: 16px;
+}
+
+.button {
+    background-color:#F6E896;
+    height: 48px;
+    width: 464px;
+    border-radius: 8px;
+    margin-bottom: 32px;
+    border-width: 0px;
+    padding: 24px auto;
+    font-size: 16px;  
+}
+
+footer {
+    background-color: #7C7D81;
+    width: 100%;
+    color:#404146
+    
+}
+
+footer h1 {
+    letter-spacing: 8px;
+    color:white;
+    position:relative;
+    font-weight:800;
+    padding-top: 16px;
+}
+
+.footer-left {
+    float:left;
+    margin-left: 60px;
+}
+
+.footer-right {
+    float:right;
+    line-height: 40px;
+    margin-right: 60px;
+}
+
+.clear {
+    clear:both;
+}
+
+footer ul {
+    padding: 32px 0px 16px 0px;
+}
+
+footer li {
+    list-style: none;
+    color: white;
+}
+
+.menu {
+    float:right;
+    padding-top: 16px;
+    display: none;
+}
